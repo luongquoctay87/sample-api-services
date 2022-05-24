@@ -28,5 +28,4 @@ public class UserController {
         log.info("UserController -> getUserWithDepartment");
         return userService.getUserWithDepartment(userId);
     }
-
 }
